@@ -15,7 +15,8 @@ After setting up Sonar Qube instance, create a new project:
 Following the setup instructions an example command is shown. Otherwise you can use this more complete command:
 
 ```
-sonar-scanner -Dsonar.projectName=<project_name> \
+docker run --rm --name sonar-scanner joaonsantos/sonar-scanner:latest \
+      sonar-scanner -Dsonar.projectName=<project_name> \
       -Dsonar.projectKey=<project_key> \
       -Dsonar.host.url=<sonar_qube_host_url> \
       -Dsonar.login=<sonar_qube_login> \
@@ -43,3 +44,9 @@ sonar.projectKey=<project_key>
 ```
 
 There are more properties detailed in the documentation, please do take a look.
+
+In this case you can simply run
+```
+docker run --name sonar-scanner joaonsantos/sonar-scanner:latest
+```
+at the project root.
