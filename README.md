@@ -9,8 +9,8 @@ Documentation can be found on the official sonar scanner documentation page, at 
 ## Quick Usage
 
 After setting up Sonar Qube instance, create a new project:
-![Setup Project](https://raw.githubusercontent.com/joaonsantos/sonnar-scanner/master/setup_project.png)
-![Generate Token](https://raw.githubusercontent.com/joaonsantos/sonnar-scanner/master/generate_token.png)
+![Setup Project](https://raw.githubusercontent.com/joaonsantos/sonnar-scanner/master/imgs/setup_project.png)
+![Generate Token](https://raw.githubusercontent.com/joaonsantos/sonnar-scanner/master/imgs/generate_token.png)
 
 Following the setup instructions an example command is shown. Otherwise you can use this more complete command:
 
