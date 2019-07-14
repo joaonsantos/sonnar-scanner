@@ -2,6 +2,9 @@
 
 This repository hosts the docker image build files for a dockerized sonar scanner cli application.
 
+On Dockerhub:
+https://hub.docker.com/r/joaonsantos/sonar-scanner
+
 ## Documentation
 
 Documentation can be found on the official sonar scanner documentation page, at https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/.
