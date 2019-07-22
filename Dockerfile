@@ -10,4 +10,4 @@ RUN yum -y -q install wget unzip && \
     mv sonar-scanner-4.0.0.1744-linux /usr/local/lib/sonar-scanner && \
     ln -s /usr/local/lib/sonar-scanner/bin/sonar-scanner /usr/local/bin/sonar-scanner
 
-ENTRYPOINT ["sonar-scanner"]
+CMD ["sonar-scanner"]
