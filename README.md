@@ -19,7 +19,7 @@ Following the setup instructions an example command is shown. Otherwise you can 
 
 ```
 docker run --rm --name sonar-scanner joaonsantos/sonar-scanner:latest \
-      sonar-scanner -Dsonar.projectName=<project_name> \
+      -Dsonar.projectName=<project_name> \
       -Dsonar.projectKey=<project_key> \
       -Dsonar.host.url=<sonar_qube_host_url> \
       -Dsonar.login=<sonar_qube_login> \
