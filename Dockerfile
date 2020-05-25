@@ -1,4 +1,4 @@
-FROM openjdk:15
+FROM openjdk:14
 
 LABEL maintainer="João Santos <joaopns05@gmail.com>"
 
