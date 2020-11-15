@@ -1,3 +1,8 @@
+## Notice
+
+This repository is now archived since there is now an official image.
+Please visit https://github.com/SonarSource/sonar-scanner-cli-docker.
+
 ## Overview
 
 This repository hosts the docker image build files for a dockerized sonar scanner cli application.
@@ -38,10 +43,10 @@ sonar.projectKey=<project_key>
 #sonar.projectName=<project_name>
 # defaults to 'not provided'
 #sonar.projectVersion=<project_version>
- 
+
 # Path is relative to the sonar-project.properties file. Defaults to .
 #sonar.sources=<path_to_src_folder>
- 
+
 # Encoding of the source code. Default is default system encoding
 #sonar.sourceEncoding=UTF-8
 ```
